@@ -297,7 +297,7 @@ const MemoryMess: React.FC<GameProps> = ({ onAchievement }) => {
 
       {completed && (
         <p className="snarky-text">
-          Acabou! Agora pode voltar a fingir que está ocupado.
+          Acabou! Agora pode voltar a fingir que está ocupado LOL.
         </p>
       )}
     </div>
@@ -435,7 +435,7 @@ const FlappyLiz: React.FC<GameProps> = ({ onAchievement }) => {
     setPipes([createPipe(), { ...createPipe(), x: FLAPPY_WIDTH + 160 }]);
     setScore(0);
     setRunning(true);
-    setMessage("Voa, Liz, voa. Ou tenta.");
+    setMessage("você é burro?");
   };
 
   const flap = () => {
@@ -535,7 +535,7 @@ const FlappyLiz: React.FC<GameProps> = ({ onAchievement }) => {
     <div className="game-card">
       <h2>🐤 Flappy Liz Bird</h2>
       <p className="game-description">
-        Desvie dos tubos, acumule pontos e ignore que tem coisas importantes pra fazer.
+        Desvie dos tubos, acumule pontos e ignore que tem coisas importantes pra fazer haha.
       </p>
 
       <div className="stats-row">
@@ -772,7 +772,7 @@ const TetrisChaos: React.FC<GameProps> = ({ onAchievement }) => {
     <div className="game-card">
       <h2>🧱 Tetris do Caos</h2>
       <p className="game-description">
-        Organize blocos caindo do céu. Diferente da vida, aqui dá pra apertar “reset”.
+        Organize blocos caindo do céu. Diferente da vida, aqui dá pra apertar “reset”, então nem é tão sério assim ok, relax take it easy.
       </p>
 
       <div className="stats-row">
@@ -786,7 +786,7 @@ const TetrisChaos: React.FC<GameProps> = ({ onAchievement }) => {
         </div>
         <div className="stat small">
           <span>Status</span>
-          <strong>{gameOver ? "Game Over" : "Em jogo"}</strong>
+          <strong>{gameOver ? "Nice Try Diddy" : "Em jogo"}</strong>
         </div>
       </div>
 
@@ -821,7 +821,7 @@ const TetrisChaos: React.FC<GameProps> = ({ onAchievement }) => {
 
       {gameOver && (
         <p className="snarky-text">
-          Acabou o jogo, mas não as suas pendências na vida real.
+          Acabou o jogo, volte a trabalhar.
         </p>
       )}
     </div>
@@ -901,9 +901,9 @@ function App() {
     <div className={`app-root ${chaosMode ? "chaos" : ""}`}>
       <header className="app-header">
         <div>
-          <h1>Liz Arcade 🎮</h1>
+          <h1>JOGOS.ONLINE.DA.LIZ.FEITOS.COM.AMOR.EM.UM.DIA.DE.TRABALHO.IMPRODUTIVO.ENJOY 🎮</h1>
           <p className="subtitle">
-            Um lugar para desperdiçar tempo com estilo, sarcasmo e um pouco de React.
+            Um lugar para desperdiçar tempo de um jeito old school. 
           </p>
         </div>
         <div className="header-right">
@@ -936,14 +936,14 @@ function App() {
               onClick={() => setActiveGame("click")}
             >
               ⚡ Click Fury
-              <span>clique até a dignidade acabar</span>
+              <span>clique até ficar com artrite</span>
             </button>
             <button
               className={`game-item ${activeGame === "rps" ? "active" : ""}`}
               onClick={() => setActiveGame("rps")}
             >
               ✊ Rock Paper Sarcasm
-              <span>pedra, papel, tesoura e humilhação digital</span>
+              <span>pedra, papel, tesoura KKKK</span>
             </button>
             <button
               className={`game-item ${activeGame === "memory" ? "active" : ""}`}
@@ -978,9 +978,9 @@ function App() {
           <section className="panel">
             <h3>Instruções (meio inúteis)</h3>
             <ul>
-              <li>Use o teclado, o mouse e zero responsabilidade.</li>
-              <li>Alguns textos mudam dependendo de quão bem (ou mal) você joga.</li>
-              <li>Existe um código secreto de videogame clássico escondido aqui… 👀</li>
+              <li>Use o teclado e o mouse</li>
+              <li>Funciona melhor em um PC, nao no seu iphone</li>
+              <li>Se ver algum BUG me avisa, pq nao sei codar e provavelmente muita coisa tá errada</li>
             </ul>
           </section>
 
